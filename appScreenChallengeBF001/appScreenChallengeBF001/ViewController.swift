@@ -77,6 +77,7 @@ class ViewController: UIViewController, UITextFieldDelegate {
         passwordTextField.textColor = UIColor.black
         passwordTextField.backgroundColor = UIColor(red: 255/255, green: 237/255, blue: 165/255, alpha: 1.0)
         passwordTextField.delegate = self
+        passwordTextField.isSecureTextEntry = true
     }
     
     
